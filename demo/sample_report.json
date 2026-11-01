@@ -1,0 +1,654 @@
+{
+  "job_id": "2bbc1ca70dd0",
+  "status": "done",
+  "input": {
+    "idea": "A playground of common web UI elements for practising browser test automation",
+    "repo_url": "https://github.com/saucelabs/the-internet",
+    "demo_url": "https://the-internet.herokuapp.com/",
+    "extra_agents": true
+  },
+  "originality": {
+    "queries": [
+      "playground common ui elements practising browser test github",
+      "playground common ui elements practising browser test devpost",
+      "playground common ui elements practising browser test product hunt",
+      "playground common ui elements practising browser test app"
+    ],
+    "originality_score": 0,
+    "summary": "Closest match: 75+ Testing Practice Websites to Master Software QA in 2026 (75% keyword overlap). 4 close matches out of 5 checked.",
+    "similar_projects": [
+      {
+        "name": "75+ Testing Practice Websites to Master Software QA in 2026",
+        "url": "https://www.ministryoftesting.com/insights/75-testing-practice-websites-to-master-software-qa-in-2025",
+        "similarity": "high",
+        "score": 0.75,
+        "how_different": "Overlaps on: playground, common, ui, elements, test, automation. Your idea also covers: practising, browser."
+      },
+      {
+        "name": "Best Practice Sites for Test Automation (2026 List)",
+        "url": "https://www.test-lab.ai/blog/practice-sites-for-test-automation",
+        "similarity": "high",
+        "score": 0.62,
+        "how_different": "Overlaps on: playground, ui, elements, test, automation. Your idea also covers: common, practising, browser."
+      },
+      {
+        "name": "Best Websites for Practicing Test Automation and Playwright",
+        "url": "https://www.davidmello.com/software-testing/test-automation/best-websites-for-practicing-test-automation",
+        "similarity": "high",
+        "score": 0.62,
+        "how_different": "Overlaps on: playground, ui, elements, test, automation. Your idea also covers: common, practising, browser."
+      },
+      {
+        "name": "First Steps Automating Web UI Testing | by Denis Markovtsev",
+        "url": "https://medium.com/@deniswords/planet-test-automation-first-steps-automating-web-ui-testing-166b8b605cef",
+        "similarity": "high",
+        "score": 0.5,
+        "how_different": "Overlaps on: ui, elements, test, automation. Your idea also covers: playground, common, practising, browser."
+      },
+      {
+        "name": "15 Playgrounds For Software Tester",
+        "url": "https://www.youtube.com/watch?v=wQQzaSrGT8I",
+        "similarity": "medium",
+        "score": 0.38,
+        "how_different": "Overlaps on: playground, test, automation. Your idea also covers: common, ui, elements, practising, browser."
+      }
+    ],
+    "how_to_stand_out": [
+      "Do what AcademyBugs doesn't: No common web UI elements playground specifically for browser test automation practice",
+      "Do what AcademyBugs doesn't: No structured exercises or guided learning paths for automation",
+      "Lead your pitch with what no similar project mentions: practising, browser."
+    ],
+    "scout": {
+      "name": "AcademyBugs",
+      "what_it_does": "A practice test site with 25 real bugs intentionally planted inside for users to explore and find, categorized under General Practice Testing.",
+      "what_it_lacks": [
+        "No common web UI elements playground specifically for browser test automation practice",
+        "No structured exercises or guided learning paths for automation",
+        "No multi-language framework support information",
+        "No integration with popular test automation tools"
+      ],
+      "blocked_by": null
+    }
+  },
+  "testing": {
+    "agents": {
+      "link_checker": {
+        "type": "agent",
+        "key": "link_checker",
+        "name": "Link Checker",
+        "icon": "🔗",
+        "stage": "testing",
+        "status": "done",
+        "progress": "Finished",
+        "streaming_url": "https://ip-54-153-23-232.tetra-data.production.tinyfish.io/tf-58924cd6-3262-454f-acfc-0e7eae6fcf06/stream/0",
+        "url": "https://the-internet.herokuapp.com/",
+        "run_id": "4c980473-4077-4536-9e58-97c0807e7108",
+        "result": {
+          "checked": 3,
+          "issues": [
+            {
+              "element": "Fork me on GitHub",
+              "problem": "Leads to external GitHub repository (https://github.com/saucelabs/the-internet) - not broken, but navigates off-site",
+              "page_url": "https://the-internet.herokuapp.com/"
+            },
+            {
+              "element": "Sauce Labs",
+              "problem": "Leads to external Sauce Labs website (https://saucelabs.com/) - not broken, but navigates off-site",
+              "page_url": "https://the-internet.herokuapp.com/"
+            },
+            {
+              "element": "Elemental Selenium",
+              "problem": "Leads to external Elemental Selenium website (http://elementalselenium.com/) - not broken, but navigates off-site",
+              "page_url": "https://the-internet.herokuapp.com/"
+            }
+          ],
+          "blocked_by": null
+        },
+        "error": null,
+        "error_kind": null,
+        "http_check": {
+          "checked": 40,
+          "broken": []
+        }
+      },
+      "signup_flow": {
+        "type": "agent",
+        "key": "signup_flow",
+        "name": "Sign-up Flow",
+        "icon": "📝",
+        "stage": "testing",
+        "status": "done",
+        "progress": "Finished",
+        "streaming_url": "https://ip-184-169-213-135.tetra-data.production.tinyfish.io/tf-5d5fac6b-6039-4d1b-a767-857847690879/stream/0",
+        "url": "https://the-internet.herokuapp.com/",
+        "run_id": "467e6cf4-3d0f-49a7-9c99-86ad53317e2e",
+        "result": {
+          "flow_found": true,
+          "steps": [
+            {
+              "step": 1,
+              "ok": true,
+              "note": "Visited https://the-internet.herokuapp.com/ homepage and identified the 'Large Form' link"
+            },
+            {
+              "step": 2,
+              "ok": true,
+              "note": "Navigated to https://the-internet.herokuapp.com/large_form (2nd page visited)"
+            }
+          ],
+          "issues": [
+            {
+              "problem": "Birthday input is a date field but no calendar popup appeared; accepted format was 1990-01-01 (ISO)",
+              "severity": "low"
+            },
+            {
+              "problem": "Form has many optional fields (Nickname, About you, Age, etc.) but no visual indicators (asterisks) distinguish required from optional fields except Nickname placeholder",
+              "severity": "low"
+            }
+          ],
+          "blocked_by": null
+        },
+        "error": null,
+        "error_kind": null
+      },
+      "first_impression": {
+        "type": "agent",
+        "key": "first_impression",
+        "name": "First Impression",
+        "icon": "👀",
+        "stage": "testing",
+        "status": "done",
+        "progress": "Finished",
+        "streaming_url": "https://ip-13-56-82-219.tetra-data.production.tinyfish.io/tf-8766847a-c0aa-48a6-9ad2-23fb886eeec5/stream/0",
+        "url": "https://the-internet.herokuapp.com/",
+        "run_id": "6f231aaa-d9b2-4188-8c90-1e59618064b6",
+        "result": {
+          "clear_purpose": true,
+          "what_it_does": "The Internet (the-internet.herokuapp.com) is a free, open-source collection of web pages that each solve a common web development problem or demonstrate a specific web technology/concept. It serves as a sandbox/test environment for practicing web testing (especially automated testing) and learning web development techniques. The site offers around 50+ examples covering topics like authentication (Basic Auth, Form Auth, Two-Factor Login), dynamic UI elements (checkboxes, radio buttons, dropdowns, drag-and-drop), DOM manipulation (frames, shadow DOM, adding/removing elements), file operations (upload/download), JavaScript interactions (alerts, context menus), and more.",
+          "confusing_things": [
+            "The page title is 'The Internet' which is very generic and unhelpful for a first-time visitor — it doesn't immediately convey this is a testing/sandbox playground.",
+            "There is no introductory or explainer text telling new visitors what the site is or how to use it. The heading 'Welcome to the-internet' is vague.",
+            "The 'Available Examples' heading with a separator line ('---') feels unfinished and provides no context about what kind of examples are available.",
+            "Links are listed in a long two-column grid without any categorization or grouping, making it hard to quickly find what you're looking for.",
+            "The 'Powered by Elemental Selenium and Sauce Labs' footer text is cryptic unless you already know these are testing tools.",
+            "The 'Elemental Selenium' and 'Sauce Labs' links at the bottom lead to external sites unrelated to the actual examples."
+          ],
+          "ui_issues": [
+            "No navigation bar with sections/categories to browse examples by type.",
+            "No search or filter functionality to find specific examples.",
+            "The long ungrouped list of links is overwhelming and lacks visual hierarchy.",
+            "No onboarding, tooltips, or guide for first-time visitors.",
+            "No footer with additional context, documentation links, or usage instructions.",
+            "The design is minimal/plain with no visual polish or modern UI elements."
+          ],
+          "blocked_by": null
+        },
+        "error": null,
+        "error_kind": null
+      },
+      "bad_inputs": {
+        "type": "agent",
+        "key": "bad_inputs",
+        "name": "Bad Inputs",
+        "icon": "🧨",
+        "stage": "testing",
+        "status": "done",
+        "progress": "Finished",
+        "streaming_url": "https://ip-54-153-23-232.tetra-data.production.tinyfish.io/tf-3d5756bb-2da0-4c81-9388-39fd941cf411/stream/0",
+        "url": "https://the-internet.herokuapp.com/large_form",
+        "run_id": "c37e328d-ed0e-4a90-a24b-dbcdbfd216af",
+        "result": {
+          "issues": [
+            {
+              "field": "empty",
+              "input": "(empty)",
+              "result": "Form submitted successfully with empty first_name field. No validation or error message shown. The submitted value displayed as blank in the results table.",
+              "severity": "medium"
+            },
+            {
+              "field": "special",
+              "input": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa b>'\"+ 😀",
+              "result": "Form submitted successfully with special characters. Value displayed correctly in the results table including emoji and special chars. No XSS vulnerability apparent - HTML tags were rendered as text. No validation errors.",
+              "severity": "low"
+            }
+          ],
+          "blocked_by": null
+        },
+        "error": null,
+        "error_kind": null
+      }
+    },
+    "bugs": [
+      {
+        "agent": "first_impression",
+        "severity": "medium",
+        "problem": "No navigation bar with sections/categories to browse examples by type.",
+        "where": "",
+        "kind": "ui"
+      },
+      {
+        "agent": "first_impression",
+        "severity": "medium",
+        "problem": "No search or filter functionality to find specific examples.",
+        "where": "",
+        "kind": "ui"
+      },
+      {
+        "agent": "first_impression",
+        "severity": "medium",
+        "problem": "The long ungrouped list of links is overwhelming and lacks visual hierarchy.",
+        "where": "",
+        "kind": "ui"
+      },
+      {
+        "agent": "first_impression",
+        "severity": "medium",
+        "problem": "No onboarding, tooltips, or guide for first-time visitors.",
+        "where": "",
+        "kind": "ui"
+      },
+      {
+        "agent": "first_impression",
+        "severity": "medium",
+        "problem": "No footer with additional context, documentation links, or usage instructions.",
+        "where": "",
+        "kind": "ui"
+      },
+      {
+        "agent": "first_impression",
+        "severity": "medium",
+        "problem": "The design is minimal/plain with no visual polish or modern UI elements.",
+        "where": "",
+        "kind": "ui"
+      },
+      {
+        "agent": "bad_inputs",
+        "severity": "medium",
+        "problem": "empty: entering '(empty)' → Form submitted successfully with empty first_name field. No validation or error message shown. The submitted value displayed as blank in the results table.",
+        "where": "",
+        "kind": "other"
+      },
+      {
+        "agent": "signup_flow",
+        "severity": "low",
+        "problem": "Birthday input is a date field but no calendar popup appeared; accepted format was 1990-01-01 (ISO)",
+        "where": "",
+        "kind": "other"
+      },
+      {
+        "agent": "signup_flow",
+        "severity": "low",
+        "problem": "Form has many optional fields (Nickname, About you, Age, etc.) but no visual indicators (asterisks) distinguish required from optional fields except Nickname placeholder",
+        "where": "",
+        "kind": "other"
+      },
+      {
+        "agent": "first_impression",
+        "severity": "low",
+        "problem": "The page title is 'The Internet' which is very generic and unhelpful for a first-time visitor — it doesn't immediately convey this is a testing/sandbox playground.",
+        "where": "",
+        "kind": "ui"
+      },
+      {
+        "agent": "first_impression",
+        "severity": "low",
+        "problem": "There is no introductory or explainer text telling new visitors what the site is or how to use it. The heading 'Welcome to the-internet' is vague.",
+        "where": "",
+        "kind": "ui"
+      },
+      {
+        "agent": "first_impression",
+        "severity": "low",
+        "problem": "The 'Available Examples' heading with a separator line ('---') feels unfinished and provides no context about what kind of examples are available.",
+        "where": "",
+        "kind": "ui"
+      },
+      {
+        "agent": "first_impression",
+        "severity": "low",
+        "problem": "Links are listed in a long two-column grid without any categorization or grouping, making it hard to quickly find what you're looking for.",
+        "where": "",
+        "kind": "ui"
+      },
+      {
+        "agent": "first_impression",
+        "severity": "low",
+        "problem": "The 'Powered by Elemental Selenium and Sauce Labs' footer text is cryptic unless you already know these are testing tools.",
+        "where": "",
+        "kind": "ui"
+      },
+      {
+        "agent": "first_impression",
+        "severity": "low",
+        "problem": "The 'Elemental Selenium' and 'Sauce Labs' links at the bottom lead to external sites unrelated to the actual examples.",
+        "where": "",
+        "kind": "ui"
+      },
+      {
+        "agent": "bad_inputs",
+        "severity": "low",
+        "problem": "special: entering 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa b>\\'\"+ 😀' → Form submitted successfully with special characters. Value displayed correctly in the results table including emoji and special chars. No XSS vulnerability apparent - HTML tags were rendered as text. No validation errors.",
+        "where": "",
+        "kind": "other"
+      }
+    ]
+  },
+  "judge": {
+    "total_score": 55,
+    "scores": {
+      "idea_originality": 0,
+      "works_as_promised": 8,
+      "ui_ux": 6,
+      "docs_readme": 8
+    },
+    "bugs_found": 16,
+    "top_3_fixes": [
+      "Do what AcademyBugs doesn't: No common web UI elements playground specifically for browser test automation practice",
+      "Fix: No navigation bar with sections/categories to browse examples by type.",
+      "Fix: No search or filter functionality to find specific examples."
+    ],
+    "judge_comment": "Strongest area: Works as promised (8/10). Biggest win available: do what AcademyBugs doesn't: No common web UI elements playground specifically for browser test automation practice.",
+    "breakdown": [
+      {
+        "area": "ui_ux",
+        "points": -1,
+        "reason": "medium bug: No navigation bar with sections/categories to browse examples by type."
+      },
+      {
+        "area": "ui_ux",
+        "points": -1,
+        "reason": "medium bug: No search or filter functionality to find specific examples."
+      },
+      {
+        "area": "ui_ux",
+        "points": -1,
+        "reason": "medium bug: The long ungrouped list of links is overwhelming and lacks visual hierarchy."
+      },
+      {
+        "area": "ui_ux",
+        "points": -1,
+        "reason": "medium bug: No onboarding, tooltips, or guide for first-time visitors."
+      },
+      {
+        "area": "ui_ux",
+        "points": -0.0,
+        "reason": "medium bug: No footer with additional context, documentation links, or usage instructions. (UI issue cap reached)"
+      },
+      {
+        "area": "ui_ux",
+        "points": -0.0,
+        "reason": "medium bug: The design is minimal/plain with no visual polish or modern UI elements. (UI issue cap reached)"
+      },
+      {
+        "area": "works_as_promised",
+        "points": -1,
+        "reason": "medium bug: empty: entering '(empty)' → Form submitted successfully with empty first_name field. No validation or error message shown. The submitted value displayed as blank in the results table."
+      },
+      {
+        "area": "works_as_promised",
+        "points": -0.5,
+        "reason": "low bug: Birthday input is a date field but no calendar popup appeared; accepted format was 1990-01-01 (ISO)"
+      },
+      {
+        "area": "works_as_promised",
+        "points": -0.5,
+        "reason": "low bug: Form has many optional fields (Nickname, About you, Age, etc.) but no visual indicators (asterisks) distinguish required from optional fields except Nickname placeholder"
+      },
+      {
+        "area": "ui_ux",
+        "points": -0.0,
+        "reason": "low bug: The page title is 'The Internet' which is very generic and unhelpful for a first-time visitor — it doesn't immediately convey this is a testing/sandbox playground. (UI issue cap reached)"
+      },
+      {
+        "area": "ui_ux",
+        "points": -0.0,
+        "reason": "low bug: There is no introductory or explainer text telling new visitors what the site is or how to use it. The heading 'Welcome to the-internet' is vague. (UI issue cap reached)"
+      },
+      {
+        "area": "ui_ux",
+        "points": -0.0,
+        "reason": "low bug: The 'Available Examples' heading with a separator line ('---') feels unfinished and provides no context about what kind of examples are available. (UI issue cap reached)"
+      },
+      {
+        "area": "ui_ux",
+        "points": -0.0,
+        "reason": "low bug: Links are listed in a long two-column grid without any categorization or grouping, making it hard to quickly find what you're looking for. (UI issue cap reached)"
+      },
+      {
+        "area": "ui_ux",
+        "points": -0.0,
+        "reason": "low bug: The 'Powered by Elemental Selenium and Sauce Labs' footer text is cryptic unless you already know these are testing tools. (UI issue cap reached)"
+      },
+      {
+        "area": "ui_ux",
+        "points": -0.0,
+        "reason": "low bug: The 'Elemental Selenium' and 'Sauce Labs' links at the bottom lead to external sites unrelated to the actual examples. (UI issue cap reached)"
+      },
+      {
+        "area": "works_as_promised",
+        "points": -0.5,
+        "reason": "low bug: special: entering 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa b>\\'\"+ 😀' → Form submitted successfully with special characters. Value displayed correctly in the results table including emoji and special chars. No XSS vulnerability apparent - HTML tags were rendered as text. No validation errors."
+      },
+      {
+        "area": "docs_readme",
+        "points": 0,
+        "reason": "Repo Reader rated the README 9/10"
+      },
+      {
+        "area": "docs_readme",
+        "points": -1,
+        "reason": "No demo link or screenshots"
+      }
+    ],
+    "project_summary": "The Internet is an open-source example web application (owned by Sauce Labs) that captures prominent and quirky web functionality found across the internet. Built with Ruby/Sinatra, it hosts dozens of interactive examples (45+ main examples) designed specifically for writing automated acceptance and end-to-end tests against. Features include authentication examples (Basic Auth, Digest Auth, Two-Factor, Form Authentication), UI interaction examples (Drag and Drop, Checkboxes, Radios, Dropdowns, Windows, Frames), DOM manipulation examples (Dynamic Controls, Dynamic Loading, AJAX-loaded content, Shifting Content), and testing-focused examples (Status Codes, JavaScript Errors, Large/Deep DOM). The app can be deployed to Heroku (live at the-internet.herokuapp.com), run locally via Rack/Docker, and includes a full test suite (HTTP contract suite, Selenium browser tests, Sauce Labs integration). Latest version is 0.62.1.",
+    "repo": {
+      "docs_readme": 9,
+      "has_setup_steps": true,
+      "has_demo_or_screenshots": false,
+      "project_summary": "The Internet is an open-source example web application (owned by Sauce Labs) that captures prominent and quirky web functionality found across the internet. Built with Ruby/Sinatra, it hosts dozens of interactive examples (45+ main examples) designed specifically for writing automated acceptance and end-to-end tests against. Features include authentication examples (Basic Auth, Digest Auth, Two-Factor, Form Authentication), UI interaction examples (Drag and Drop, Checkboxes, Radios, Dropdowns, Windows, Frames), DOM manipulation examples (Dynamic Controls, Dynamic Loading, AJAX-loaded content, Shifting Content), and testing-focused examples (Status Codes, JavaScript Errors, Large/Deep DOM). The app can be deployed to Heroku (live at the-internet.herokuapp.com), run locally via Rack/Docker, and includes a full test suite (HTTP contract suite, Selenium browser tests, Sauce Labs integration). Latest version is 0.62.1.",
+      "missing_things": [
+        "No screenshots or demo images in the README",
+        "No visual walkthroughs or GIFs demonstrating features",
+        "No API documentation beyond example URLs"
+      ]
+    }
+  },
+  "agents": {
+    "repo_reader": {
+      "type": "agent",
+      "key": "repo_reader",
+      "name": "Repo Reader",
+      "icon": "📚",
+      "stage": "judge",
+      "status": "done",
+      "progress": "Finished",
+      "streaming_url": "https://ip-13-56-82-219.tetra-data.production.tinyfish.io/tf-15030f06-d954-4917-9e38-345d9ed528d9/stream/0",
+      "url": "https://github.com/saucelabs/the-internet",
+      "run_id": "c597f6c6-e4ed-4cda-9ea8-0d29722e9a2b",
+      "result": {
+        "docs_readme": 9,
+        "has_setup_steps": true,
+        "has_demo_or_screenshots": false,
+        "project_summary": "The Internet is an open-source example web application (owned by Sauce Labs) that captures prominent and quirky web functionality found across the internet. Built with Ruby/Sinatra, it hosts dozens of interactive examples (45+ main examples) designed specifically for writing automated acceptance and end-to-end tests against. Features include authentication examples (Basic Auth, Digest Auth, Two-Factor, Form Authentication), UI interaction examples (Drag and Drop, Checkboxes, Radios, Dropdowns, Windows, Frames), DOM manipulation examples (Dynamic Controls, Dynamic Loading, AJAX-loaded content, Shifting Content), and testing-focused examples (Status Codes, JavaScript Errors, Large/Deep DOM). The app can be deployed to Heroku (live at the-internet.herokuapp.com), run locally via Rack/Docker, and includes a full test suite (HTTP contract suite, Selenium browser tests, Sauce Labs integration). Latest version is 0.62.1.",
+        "missing_things": [
+          "No screenshots or demo images in the README",
+          "No visual walkthroughs or GIFs demonstrating features",
+          "No API documentation beyond example URLs"
+        ]
+      },
+      "error": null,
+      "error_kind": null
+    },
+    "link_checker": {
+      "type": "agent",
+      "key": "link_checker",
+      "name": "Link Checker",
+      "icon": "🔗",
+      "stage": "testing",
+      "status": "done",
+      "progress": "Finished",
+      "streaming_url": "https://ip-54-153-23-232.tetra-data.production.tinyfish.io/tf-58924cd6-3262-454f-acfc-0e7eae6fcf06/stream/0",
+      "url": "https://the-internet.herokuapp.com/",
+      "run_id": "4c980473-4077-4536-9e58-97c0807e7108",
+      "result": {
+        "checked": 3,
+        "issues": [
+          {
+            "element": "Fork me on GitHub",
+            "problem": "Leads to external GitHub repository (https://github.com/saucelabs/the-internet) - not broken, but navigates off-site",
+            "page_url": "https://the-internet.herokuapp.com/"
+          },
+          {
+            "element": "Sauce Labs",
+            "problem": "Leads to external Sauce Labs website (https://saucelabs.com/) - not broken, but navigates off-site",
+            "page_url": "https://the-internet.herokuapp.com/"
+          },
+          {
+            "element": "Elemental Selenium",
+            "problem": "Leads to external Elemental Selenium website (http://elementalselenium.com/) - not broken, but navigates off-site",
+            "page_url": "https://the-internet.herokuapp.com/"
+          }
+        ],
+        "blocked_by": null
+      },
+      "error": null,
+      "error_kind": null,
+      "http_check": {
+        "checked": 40,
+        "broken": []
+      }
+    },
+    "signup_flow": {
+      "type": "agent",
+      "key": "signup_flow",
+      "name": "Sign-up Flow",
+      "icon": "📝",
+      "stage": "testing",
+      "status": "done",
+      "progress": "Finished",
+      "streaming_url": "https://ip-184-169-213-135.tetra-data.production.tinyfish.io/tf-5d5fac6b-6039-4d1b-a767-857847690879/stream/0",
+      "url": "https://the-internet.herokuapp.com/",
+      "run_id": "467e6cf4-3d0f-49a7-9c99-86ad53317e2e",
+      "result": {
+        "flow_found": true,
+        "steps": [
+          {
+            "step": 1,
+            "ok": true,
+            "note": "Visited https://the-internet.herokuapp.com/ homepage and identified the 'Large Form' link"
+          },
+          {
+            "step": 2,
+            "ok": true,
+            "note": "Navigated to https://the-internet.herokuapp.com/large_form (2nd page visited)"
+          }
+        ],
+        "issues": [
+          {
+            "problem": "Birthday input is a date field but no calendar popup appeared; accepted format was 1990-01-01 (ISO)",
+            "severity": "low"
+          },
+          {
+            "problem": "Form has many optional fields (Nickname, About you, Age, etc.) but no visual indicators (asterisks) distinguish required from optional fields except Nickname placeholder",
+            "severity": "low"
+          }
+        ],
+        "blocked_by": null
+      },
+      "error": null,
+      "error_kind": null
+    },
+    "first_impression": {
+      "type": "agent",
+      "key": "first_impression",
+      "name": "First Impression",
+      "icon": "👀",
+      "stage": "testing",
+      "status": "done",
+      "progress": "Finished",
+      "streaming_url": "https://ip-13-56-82-219.tetra-data.production.tinyfish.io/tf-8766847a-c0aa-48a6-9ad2-23fb886eeec5/stream/0",
+      "url": "https://the-internet.herokuapp.com/",
+      "run_id": "6f231aaa-d9b2-4188-8c90-1e59618064b6",
+      "result": {
+        "clear_purpose": true,
+        "what_it_does": "The Internet (the-internet.herokuapp.com) is a free, open-source collection of web pages that each solve a common web development problem or demonstrate a specific web technology/concept. It serves as a sandbox/test environment for practicing web testing (especially automated testing) and learning web development techniques. The site offers around 50+ examples covering topics like authentication (Basic Auth, Form Auth, Two-Factor Login), dynamic UI elements (checkboxes, radio buttons, dropdowns, drag-and-drop), DOM manipulation (frames, shadow DOM, adding/removing elements), file operations (upload/download), JavaScript interactions (alerts, context menus), and more.",
+        "confusing_things": [
+          "The page title is 'The Internet' which is very generic and unhelpful for a first-time visitor — it doesn't immediately convey this is a testing/sandbox playground.",
+          "There is no introductory or explainer text telling new visitors what the site is or how to use it. The heading 'Welcome to the-internet' is vague.",
+          "The 'Available Examples' heading with a separator line ('---') feels unfinished and provides no context about what kind of examples are available.",
+          "Links are listed in a long two-column grid without any categorization or grouping, making it hard to quickly find what you're looking for.",
+          "The 'Powered by Elemental Selenium and Sauce Labs' footer text is cryptic unless you already know these are testing tools.",
+          "The 'Elemental Selenium' and 'Sauce Labs' links at the bottom lead to external sites unrelated to the actual examples."
+        ],
+        "ui_issues": [
+          "No navigation bar with sections/categories to browse examples by type.",
+          "No search or filter functionality to find specific examples.",
+          "The long ungrouped list of links is overwhelming and lacks visual hierarchy.",
+          "No onboarding, tooltips, or guide for first-time visitors.",
+          "No footer with additional context, documentation links, or usage instructions.",
+          "The design is minimal/plain with no visual polish or modern UI elements."
+        ],
+        "blocked_by": null
+      },
+      "error": null,
+      "error_kind": null
+    },
+    "bad_inputs": {
+      "type": "agent",
+      "key": "bad_inputs",
+      "name": "Bad Inputs",
+      "icon": "🧨",
+      "stage": "testing",
+      "status": "done",
+      "progress": "Finished",
+      "streaming_url": "https://ip-54-153-23-232.tetra-data.production.tinyfish.io/tf-3d5756bb-2da0-4c81-9388-39fd941cf411/stream/0",
+      "url": "https://the-internet.herokuapp.com/large_form",
+      "run_id": "c37e328d-ed0e-4a90-a24b-dbcdbfd216af",
+      "result": {
+        "issues": [
+          {
+            "field": "empty",
+            "input": "(empty)",
+            "result": "Form submitted successfully with empty first_name field. No validation or error message shown. The submitted value displayed as blank in the results table.",
+            "severity": "medium"
+          },
+          {
+            "field": "special",
+            "input": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa b>'\"+ 😀",
+            "result": "Form submitted successfully with special characters. Value displayed correctly in the results table including emoji and special chars. No XSS vulnerability apparent - HTML tags were rendered as text. No validation errors.",
+            "severity": "low"
+          }
+        ],
+        "blocked_by": null
+      },
+      "error": null,
+      "error_kind": null
+    },
+    "competitor_scout": {
+      "type": "agent",
+      "key": "competitor_scout",
+      "name": "Competitor Scout",
+      "icon": "🕵️",
+      "stage": "originality",
+      "status": "done",
+      "progress": "Finished",
+      "streaming_url": "https://ip-13-56-82-219.tetra-data.production.tinyfish.io/tf-fad12a5f-170b-4e8e-b97d-2b4676b58fc3/stream/0",
+      "url": "https://www.ministryoftesting.com/insights/75-testing-practice-websites-to-master-software-qa-in-2025",
+      "run_id": "dab7f227-92af-472e-9a35-ccb466d2de62",
+      "result": {
+        "name": "AcademyBugs",
+        "what_it_does": "A practice test site with 25 real bugs intentionally planted inside for users to explore and find, categorized under General Practice Testing.",
+        "what_it_lacks": [
+          "No common web UI elements playground specifically for browser test automation practice",
+          "No structured exercises or guided learning paths for automation",
+          "No multi-language framework support information",
+          "No integration with popular test automation tools"
+        ],
+        "blocked_by": null
+      },
+      "error": null,
+      "error_kind": null
+    }
+  },
+  "finished_at": 1793521831.6406431
+}
